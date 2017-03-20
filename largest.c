@@ -9,8 +9,11 @@ if(x>y&&x>z){
 else if(y>x&&y>z){
     printf("\n y is greater");
                 }
-else {
+else if(z>x&&z>y)
+    {
     printf("\n z is greater");
 }
+else
+    printf(" the given numbers are equal");
 }
 
