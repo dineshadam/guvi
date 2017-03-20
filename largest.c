@@ -9,8 +9,8 @@ if(x>y&&x>z){
 else if(y>x&&y>z){
     printf("\n y is greater");
                 }
-if(z>x&&z>y){
+else {
     printf("\n z is greater");
-            }
+}
 }
 
