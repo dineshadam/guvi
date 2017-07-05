@@ -8,7 +8,6 @@ public class HappyNumber {
 		String str=read.next();
 		int rem=0;
 		int flag=0;
-		if(str.length()>=2){
 		while(str.length()!=1){
 			int sum=0;
 		for(int i=0;i<str.length();i++)
@@ -26,10 +25,6 @@ public class HappyNumber {
 		if(flag==0){
 			System.out.println("unhappy number");
 		}
-		}
-		else
-			System.out.println("string must contain 2 element");
-		//eg:02 instead of 2
 	}
 	}
 
